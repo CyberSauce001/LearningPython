@@ -14,12 +14,11 @@ counter = None
 num_word = None
 
 for word, count in list(counting.items()): #for each word and count in the counting list 
-  if counter is None or count > counting: #self explanatory 
+  if counter is None or count > counting: 
     num_word = word # store the word in the list to the num_word
     counter = count # store the count of that word in the list to counter
     
 print(num_word,counter)
 
-#This will print out the word that appears the most in the text file.
 
 
